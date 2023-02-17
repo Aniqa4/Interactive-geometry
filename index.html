@@ -32,46 +32,46 @@
                 <img src="images/rectangle.png" alt="rectangle">
                 <h1 id="name2" class="py-2">Rectangle</h1>
                 <p>Area (A) = w x l</p>
-                <p class="py-2"><input type="text" placeholder="w" class="border border-solid bg-gray-100 px-2 w-3/12">
-                    <span> cm</span><input type="text" placeholder="l" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
+                <p class="py-2"><input id="rectangleValue1" type="text" placeholder="w" class="border border-solid bg-gray-100 px-2 w-3/12">
+                    <span> cm</span><input id="rectangleValue2" type="text" placeholder="l" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
                 </p>
-                <button class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
+                <button id="rectangle" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <div class="border rounded-md p-10 text-center">
                 <img src="images/parallelogram.png" alt="parallelogram">
                 <h1 id="name3" class="py-2">Parallelogram</h1>
                 <p>Area (A) = b x h</p>
-                <p class="py-2"><input type="text" placeholder="b" class="border border-solid bg-gray-100 px-2 w-3/12">
-                    <span> cm</span><input type="text" placeholder="h" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
+                <p class="py-2"><input id="parallelogramValue1" type="text" placeholder="b" class="border border-solid bg-gray-100 px-2 w-3/12">
+                    <span> cm</span><input id="parallelogramValue2" type="text" placeholder="h" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
                 </p>
-                <button class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
+                <button id="parallelogram" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <div class="border rounded-md p-10 text-center">
                 <img src="images/rhombus.png" alt="rhombus">
                 <h1 id="name4" class="py-2">Rhombus</h1>
                 <p>Area (A) = .5 x d<sub>1</sub> x d<sub>2</sub></p>
-                <p class="py-2"><input type="text" placeholder="d1" class="border border-solid bg-gray-100 px-2 w-3/12">
-                    <span> cm</span><input type="text" placeholder="d2" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
+                <p class="py-2"><input id="rhombusValue1" type="text" placeholder="d1" class="border border-solid bg-gray-100 px-2 w-3/12">
+                    <span> cm</span><input id="rhombusValue2" type="text" placeholder="d2" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
                 </p>
-                <button class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
+                <button id="rhombus" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <div class="border rounded-md p-10 text-center">
                 <img src="images/pentagon.png" alt="pentagon">
                 <h1 id="name5" class="py-2">Pentagon</h1>
                 <p>Area (A) = .5 x p x b</p>
-                <p class="py-2"><input type="text" placeholder="p" class="border border-solid bg-gray-100 px-2 w-3/12">
-                    <span> cm</span><input type="text" placeholder="b" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
+                <p class="py-2"><input id="pentagonValue1" type="text" placeholder="p" class="border border-solid bg-gray-100 px-2 w-3/12">
+                    <span> cm</span><input id="pentagonValue2" type="text" placeholder="b" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
                 </p>
-                <button class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
+                <button id="pentagon" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <div class="border rounded-md p-10 text-center">
                 <img src="images/ellipse.png" alt="ellipse">
                 <h1 id="name6" class="py-2">Ellipse</h1>
                 <p>Area (A) = &#8508;ab</p>
-                <p class="py-2"><input type="text" placeholder="a" class="border border-solid bg-gray-100 px-2 w-3/12">
-                    <span> cm</span><input type="text" placeholder="b" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
+                <p class="py-2"><input id="ellipseValue1" type="text" placeholder="a" class="border border-solid bg-gray-100 px-2 w-3/12">
+                    <span> cm</span><input id="ellipseValue2" type="text" placeholder="b" class="border border-solid bg-gray-100 px-2 w-3/12"><span> cm</span>
                 </p>
-                <button class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
+                <button id="ellipse" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
         </section>
         <aside class="text-center border border-solid w-3/12">
@@ -82,6 +82,7 @@
             </table>
         </aside>
     </main>
+    <script src="javaScript/functions.js"></script>
     <script src="javaScript/calculation1.js"></script>
 </body>
 </html>
