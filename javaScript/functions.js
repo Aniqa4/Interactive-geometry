@@ -20,7 +20,6 @@ function firstParameter(value1) {
     const makeList=document.getElementById('calculationList');
     const name=document.getElementById(idOfName);
     const inputName=name.innerText;
-    
     const tr= document.createElement("tr");
     tr.innerHTML=`
     <td>${serial}</td>
