@@ -8,7 +8,7 @@ function firstParameter(value1) {
     return firstParameterNumber;
 }
 
-//----this is a function to get 1ns parameter from 2nd input field------
+//----this is a function to get 2nd parameter from 2nd input field------
  function secondParameter(value2) {
     const secondParameter=document.getElementById(value2);
     const secondParameterString=secondParameter.value;

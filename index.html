@@ -21,7 +21,7 @@
     <main class="flex gap-5 mb-20">
         <section class="grid grid-rows-2 grid-cols-3 gap-5">
             <!-----------------------triangle------------------>
-            <div class="border rounded-md p-10 text-center">
+            <div id="random-color1" class="border rounded-md p-10 text-center">
                 <img src="images/triangle.png" alt="triangle">
                 <h1 id="name1" class="py-2">Triangle</h1>
                 <p>Area (A) =0.5 x b x h</p>
@@ -31,7 +31,7 @@
                 <button id="triangle" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <!-----------------------rectangle-------------------->
-            <div class="border rounded-md p-10 text-center">
+            <div id="random-color2" class="border rounded-md p-10 text-center">
                 <img src="images/rectangle.png" alt="rectangle">
                 <h1 id="name2" class="py-2">Rectangle</h1>
                 <p>Area (A) = w x l</p>
@@ -41,7 +41,7 @@
                 <button id="rectangle" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <!-----------------------parallelogram---------------->
-            <div class="border rounded-md p-10 text-center">
+            <div id="random-color3" class="border rounded-md p-10 text-center">
                 <img src="images/parallelogram.png" alt="parallelogram">
                 <h1 id="name3" class="py-2">Parallelogram</h1>
                 <p>Area (A) = b x h</p>
@@ -51,7 +51,7 @@
                 <button id="parallelogram" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <!------------------------rhombus---------------------->
-            <div class="border rounded-md p-10 text-center">
+            <div id="random-color4" class="border rounded-md p-10 text-center">
                 <img src="images/rhombus.png" alt="rhombus">
                 <h1 id="name4" class="py-2">Rhombus</h1>
                 <p>Area (A) = .5 x d<sub>1</sub> x d<sub>2</sub></p>
@@ -61,7 +61,7 @@
                 <button id="rhombus" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <!----------------------pentagon----------------------->
-            <div class="border rounded-md p-10 text-center">
+            <div id="random-color5" class=" border rounded-md p-10 text-center">
                 <img src="images/pentagon.png" alt="pentagon">
                 <h1 id="name5" class="py-2">Pentagon</h1>
                 <p>Area (A) = .5 x p x b</p>
@@ -71,7 +71,7 @@
                 <button id="pentagon" class="font-semibold text-white rounded bg-blue-400 p-2 px-5 w-11/12 mt-10">Calculate</button>
             </div>
             <!------------------------ellipse---------------------------->
-            <div class="border rounded-md p-10 text-center">
+            <div id="random-color6" class=" border rounded-md p-10 text-center">
                 <img src="images/ellipse.png" alt="ellipse">
                 <h1 id="name6" class="py-2">Ellipse</h1>
                 <p>Area (A) = &#8508;ab</p>
@@ -82,7 +82,7 @@
             </div>
         </section>
         <!-------------------------------calculation chart----------------->
-        <aside class="text-center border border-solid w-3/12">
+        <aside class="text-center border border-solid w-4/12">
             <p class="font-semibold underline">Area Calculation:</p>
             <table id="calculationList">
                 <tr>
@@ -92,5 +92,6 @@
     </main>
     <script src="javaScript/functions.js"></script>
     <script src="javaScript/calculation1.js"></script>
+    <script src="javaScript/random-bg-color.js"></script>
 </body>
 </html>
