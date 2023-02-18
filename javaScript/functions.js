@@ -4,7 +4,6 @@ function firstParameter(value1) {
     const firstParameterString=firstParameter.value;
     const firstParameterNumber=parseFloat(firstParameterString);
     firstParameter.value='';
-    
     return firstParameterNumber;
 }
 
@@ -14,7 +13,6 @@ function firstParameter(value1) {
     const secondParameterString=secondParameter.value;
     const secondParameterNumber=parseFloat(secondParameterString);
     secondParameter.value='';
-
     return secondParameterNumber;
  }
 //------this is a function to get calculated values in list----------

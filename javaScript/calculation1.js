@@ -2,17 +2,29 @@
 document.getElementById('triangle').addEventListener('click',function(){
     const base=firstParameter('triangleValue1');//---used function--
     const height=secondParameter('triangleValue2');//--used function--
-    calculatedArea=.5*base*height;
+    //---------------validation----------------------
+    if (isNaN(base)||isNaN(height)||base<=0||height<=0) {
+        alert("invalid parameter.     (parameters of real life objects can't be zero, negative numbers, string or empty.)")
+    }
+    else{
+        calculatedArea=.5*base*height;
     area=calculatedArea.toFixed(2);
-    calculatedValueList('1','name1');//--used function--
+    calculatedValueList('1','name1')//--used function--
+    }
 })
 //--------------calculation for Rectangle-----------
 document.getElementById('rectangle').addEventListener('click',function(){
     const width=firstParameter('rectangleValue1');
     const length=secondParameter('rectangleValue2');
-    calculatedArea=width*length;
+    //-----------------validation-----------------------
+    if (isNaN(width)||isNaN(length)||width<=0||length<=0) {
+        alert("invalid parameter.     (parameters of real life objects can't be zero, negative numbers, string or empty.)")
+    }
+    else{
+        calculatedArea=width*length;
     area=calculatedArea.toFixed(2);
     calculatedValueList('2','name2');//--used function--
+    }
 })
 //------------calculation for parallelogram----------
 document.getElementById('parallelogram').addEventListener('click',function(){
