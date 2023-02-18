@@ -17,7 +17,7 @@ function firstParameter(value1) {
 
     return secondParameterNumber;
  }
-//------this is a function to get calculated values-------------------
+//------this is a function to get calculated values in list----------
  function calculatedValueList(serial,idOfName) {
     const makeList=document.getElementById('calculationList');
     const name=document.getElementById(idOfName);
